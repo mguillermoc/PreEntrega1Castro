@@ -1,4 +1,29 @@
 
+.flex-block{
+  display: flex;
+  gap: 10px;
+}
+.caja{
+  background: #fff;
+  border-radius: 2px;
+  margin: 1rem;
+  width: auto;
+  box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+}
+
+.li-caja{
+  list-style: none;
+  text-align: left;
+  padding: 20px 10px;
+  font-weight: 600;
+  font-size: 2rem;
+}
+
+.p-caja{
+  text-align: left;
+  padding: 20px 10px;
+  font-size: 1rem;
+}
 
 .navbar1{
   max-height: 150px;
@@ -8,6 +33,10 @@
   justify-content: space-around;
   align-items: center;
 }
+.img-item{
+  border-radius: 10px;
+}
+
 .App-logo{
   max-width: 150px;
 }
