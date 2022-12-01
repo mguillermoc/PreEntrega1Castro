@@ -4,9 +4,6 @@ import { producto } from "../mocks/item.mock"
 import {useState} from 'react';
 
 
-
-
-
 const ItemDetailContainer = () =>{
     const [item, setItem] = useState(null);
     useEffect(()=>{
